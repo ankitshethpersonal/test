@@ -1,0 +1,17 @@
+{
+    "name": "cimpress/phptest-skeleton",
+    "description": "Download files and listing from github",
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "knplabs/github-api": "^2.4",
+        "php-http/guzzle6-adapter": "^1.1"
+    },
+    "autoload": {
+         "psr-4": {
+                   "Cimpress\\Lib\\": "Lib",
+                   "Cimpress\\Services\\": "Services",
+                   "Cimpress\\Views\\": "Views"
+                  }
+    }
+}
